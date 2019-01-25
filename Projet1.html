@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV Template</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Style1.css">
+</head>
+<body>
+	<!--Div pour mettre en forme toute la page-->
+	<div class="page"> 
+			<!-- section pour le header du CV 
+=========================================================================================================================*/-->
+		<header><!-- 3 divs, une pour chaque bloc -->
+			<div class="header"> <!--div pour tout le header-->
+				<div class="infoheader photo"><!-- 2 divs avec 2 classes chacunes: une en commun pour mettre en forme photo et texte (infoheader) + une individuel(photo/nom) -->
+					<img src="avatar.jpg">
+				</div>
+				<div class="infoheader nom">
+<!-- Next, une classe pour chaque p pour leur attribuer leur taille indépendemment-->
+					<p class="un">Votre nom</p>
+					<p class="deux">Développeur Web junior </p>
+					<p class="trois">une petite description de vous et de ce que vous recherchez</p>
+				</div>
+			</div>
+		</header>
+<!-- FIN DU HEADER - DEBUT COLONNE GAUCHE
+=========================================================================================================================*/-->
+	<div id="blocmilieu"> <!--Div contenant colonne + trame principale pour les aligner dans le CSS avec l'id-->
+		<aside>
+			<div class="colonnegauche">
+				<h4>Coordonnées</h4>
+    
+				<li>30 ans</li>
+				<li>80 rue de l'exemple</li>
+				<li>59000 Lille</li>
+				<li>Véhiculé</li>
+
+				<h4>Compétences</h4>
+
+				<li>Motivation: Excellente</li>
+				<li>Esprit d'équipe: Très bon</li>
+				<li>Curiosité: A fond</li>
+				<li>HTML/CSS: Débutant</li>
+
+				<h4>Loisirs</h4>
+
+				<li>Foot</li>
+				<li>Randonnées</li>
+				<li>Code</li>
+				<li>Linux</li>
+  			</div>
+  		</aside>
+<!-- FIN COLONNE GAUCHE - DEBUT TRAME PRINCIPALE==================================================================================-->
+		<article> 
+			<div class="body"><!-- Div qui englobe toute la trame principale -->
+					<h2>Expériences</h2> <!--titre-->
+				<div class="blocbody"> <!-- Div 'blocbody' pour mettre en forme tout le contenu avec une marge à gauche --> 
+					<h1>Titre de poste</h1> 
+					<hr>
+					<p class="infosbody">Informations: durée, lieu...</p>
+					<p class="descriptionbody">Description de ce que vous avez fait</p>
+			<!-- deuxième block-------------------->
+					<h1>Titre de poste</h1> 
+					<hr>
+					<p class="infosbody">Informations: durée, lieu...</p>
+					<p class="descriptionbody">Description de ce que vous avez fait</p>
+			<!-- troisième block------------------->
+					<h1>Titre de poste</h1> 
+					<hr>
+					<p class="infosbody">Informations: durée, lieu...</p>
+					<p class="descriptionbody">Description de ce que vous avez fait</p>
+				</div>
+			</div>
+		</article>
+	</div>
+<!-- FIN TRAME PRINCIPALE ==================================================================================-->
+	</div>
+</body>
+</html>

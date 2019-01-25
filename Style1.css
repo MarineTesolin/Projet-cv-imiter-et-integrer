@@ -1,0 +1,141 @@
+
+
+/* première section 'page' pour mattre en forme ensemple du template*/
+.page {
+	width: 1000px;
+	margin: auto;
+}
+
+/* pour styler tout le HEADER
+====================================================================================*/
+.header {
+	height: 100%;
+	background-color: #2F4858;
+}
+
+/* pour styler les deux blocs du header et les aligner*/
+.infoheader {
+	display: inline-block;
+	height: 180px;
+}
+
+/* styler le bloc de la photo (gauche, 10% de la largeur + hauteur)*/
+.photo {
+	height: 180px;
+	width: 10%;
+	float: left;
+}
+/* styler la photo (marge + hauteur)*/
+img {
+	margin: 20px 0px 0px 40px;
+	height: 140px;
+}
+
+/* styler bloc du texte*/
+.nom {
+	height: 180px;
+	width: 90%;
+	color: white;
+	text-align: center;
+}
+/*styer chaque ligne*/
+.un  {
+	font-size: 20px;
+}
+.deux {
+	font-size: 30px;
+	font-weight: bold;
+}
+.trois {
+	font-size: 15px;
+	font-style: italic;
+}
+
+/* FIN DU HEADER
+=========================================================================================
+STYLING COLONNE GAUCHE*/
+
+/* styling du id 'blocmilieu' pour aligner colonne gauche et trame principale*/
+#blocmilieu {
+	display: flex;
+}
+/*Colonne de gauche avec fond bleue bordure verte*/
+.colonnegauche { 
+	width: 250px;
+	height: 100%;
+	background-color: #86BBD8;
+	list-style: none;
+	border-top: solid 5px #9FE694;
+	line-height: 25px;
+}
+
+/*Titre colonne de gauche aligné à gauche avec couleur grise*/
+h4 { 
+	color: #3A5768;
+	text-align: left; 
+	margin-right: 20px;
+	margin-left: 10px;
+} 
+
+/*Indentation du texte dans les titres*/
+li {
+	margin-left: 50px;
+}
+/*=================================================================================================*/
+/* CSS POUR TRAME PRINCIPALE
+=================================================================================*/
+.body {
+	width: 745px;
+	height: 100%;
+	background-color: #FAF8F8;
+	border-left: solid 5px white;
+	padding-bottom: 5px;
+
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 0px;
+	padding-top: 30px;
+}
+
+/* Mise en forme de tous les éléments avec class blocbody pour les mettre à gauche avec  marge*/
+.blocbody {
+	text-align: left;
+	margin-left: 30px;
+}
+
+h1 {
+	font-size: 23px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 20px;
+}
+
+/* Mise en forme de la balise hr pour faire ligne horizontale*/
+hr {
+	width: 50%;
+	height: 4px;
+	background-color: #9FE694;
+	border: none;
+	margin-top: 0;
+	margin-bottom: 21px;
+	float: left;
+	margin-right: 800px;
+}
+
+/* Mise en forme du texte sous les titr es (infos et description)*/
+.infosbody {
+	font-style: italic;
+	font-size: 17px;
+}
+
+.descriptionbody {
+	font-size: 17px;
+	padding-bottom: 20px;
+}
+
+
+
